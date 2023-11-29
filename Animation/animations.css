@@ -1,0 +1,185 @@
+#cartoon-house{
+    width: 1300px;
+    height: 300px;
+    margin-top: -30px;
+    background-image: url(images/animations/ilustrasion-scene\ \(1\).png);
+    position: relative;
+    animation: airoplane 5s linear infinite;
+}
+#airoplane{
+    animation: plane 3s linear infinite;
+    position: absolute;
+}
+@keyframes plane{
+    0%{
+        transform: translate(1300px,-270px);
+
+    }
+    100%{
+        transform: translate(-400px,-270px);
+    }
+}
+#helicopter{
+    position: absolute;
+    animation: helicopter 6s linear infinite;
+    width: 200px;
+}
+@keyframes helicopter{
+    0%{
+        transform: translate(1300px,-250px);
+    }
+    100%{
+        transform: translate(-400px,-250px);
+    }
+}
+#workway{
+    border-bottom: 8px solid lime;
+    background-color: gray;
+    height: 30px;
+    margin-top: -30px;
+}
+#backviewman{
+    height: 100px;
+    animation: backviewman 7s linear infinite;
+}
+@keyframes backviewman{
+    0%{
+        transform: translate(1300px,-65px);
+    }
+    100%{
+        transform: translate(-400px, -65px);
+    }
+}
+#pedestrian{
+    height: 100px;
+    animation: pedestrian 7s linear infinite;
+}
+@keyframes pedestrian{
+    0%{transform: translate(-200px, -70px);
+    }
+    100%{transform: translate(1300px, -70px);}
+}
+#road{
+    width: 1300px;
+    height: 150px;
+    position: absolute;
+    
+}
+#bike{
+    width: 100px;
+    animation: bike 4s linear infinite;
+    position: absolute;
+}
+@keyframes bike{
+    0%{transform: translate(1300px, -50px);
+    }
+    100%{transform: translate(-400px, -50px);}
+}
+#taxi{
+    width: 150px;
+    position: absolute;
+    animation: taxi 5s linear infinite;
+}
+@keyframes taxi{
+    0%{transform: translate(1300px, -30px);
+    }
+    100%{transform: translate(-400px, -30px);}
+}
+#lorry1{
+    width: 100px;
+    animation: lorry1 3s linear infinite;
+    position: relative;
+}
+@keyframes lorry1{
+    0%{transform: translate(1300px, 50px);
+    }
+    100%{transform: translate(-400px, 50px);}
+}
+#streetlight{
+    width: 1300px;
+    height: 50px;
+    border: 2px solid gray;
+    margin-top: -4px;
+    background-color: gray;
+    position: absolute;
+    margin-top: 38px;
+}
+#streetlight1{
+    height: 130px;
+    width: 100px;
+    /* position: absolute; */
+    margin-top: -100px;
+    margin-left: 220px;
+}
+#streetlight2{
+    height: 130px;
+    width: 100px;
+    /* position: absolute; */
+    margin-top: -100px;
+    margin-left: 240px;
+}
+#streetlight3{
+    height: 130px;
+    width: 100px;
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 250px;
+}
+#oneway1{
+    height: 170px;
+    width: 150px;
+    margin-top: -110px;
+    margin-left: -400px;
+    position: absolute;
+}
+#oneway2{
+    height: 170px;
+    width: 150px;
+    margin-top: -110px;
+    margin-left: 300px;
+    position: absolute;
+}
+#road2{
+    width: 1300px;
+    height: 150px;
+    position: relative;
+    margin-top: 90px;
+}
+#sportcar{
+    width: 130px;
+    height: 60px;
+    animation: sportcar 1.5s linear infinite;
+    position: absolute;
+}
+@keyframes sportcar{
+0%{transform: translate(-10px, -170px);}    
+100%{transform: translate(1300px, -170px);}
+}
+#lorry2{
+    width: 200px;
+    animation: sportcar 2s linear infinite;
+    position: absolute;
+}
+@keyframes lorry2{
+    0%{transform: translate(-10px, -170px);}
+    100%{transform: translate(1300px, -170px);}
+}
+#taxi2{
+    width: 200px;
+    animation: taxi2 2.5s linear infinite;
+    position: absolute;
+}
+@keyframes taxi2{
+    0%{transform: translate(-10px, -120px);}
+    100%{transform: translate(1300px, -120px);}
+}
+#bicycleboy{
+    width: 100px;
+    height: 100px;
+    animation: bicycleboy 6s linear infinite;
+    position: absolute;
+}
+@keyframes bicycleboy{
+    0%{transform: translate(-10px, -100px);}
+    100%{transform: translate(1300px, -100px);}
+}
